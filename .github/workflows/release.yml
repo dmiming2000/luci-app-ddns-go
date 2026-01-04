@@ -69,3 +69,4 @@ jobs:
           allowUpdates: true
           replacesArtifacts: true
           artifacts: "bin/packages/${{ matrix.arch }}/packages_ci/*.ipk"
+          tag: "latest"      # <--- 添加这一行
